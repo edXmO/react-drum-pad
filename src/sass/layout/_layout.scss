@@ -81,3 +81,18 @@
     grid-template-rows: .5fr[volume-start] 1.2fr[volume-end controls-start]1.2fr [controls-end display-start] 1.2fr [display-end] 0.5fr [copy-start] 1fr [copy-end];
     grid-row-gap: 10px;
 }
+
+.logo {
+    grid-area: 1 / 2 / 2 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+
+    p {
+        letter-spacing: 0.3rem;
+        font-family: var(--font-screens);
+        color: lightgrey;
+        font-size: 2rem;
+    }
+}

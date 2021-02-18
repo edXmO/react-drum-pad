@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 *,
 *::before,
 *::after {
@@ -31,7 +32,8 @@ body {
   --color-pad-6: #ba01ff;
   --color-pad-7: #ff073a;
   --color-pad-8: #001eff;
-  --color-pad-9: #ff6600; }
+  --color-pad-9: #ff6600;
+  --font-screens: "Orbitron", sans-serif; }
 
 .container {
   background-color: var(--background-pad-container);
@@ -84,13 +86,45 @@ body {
   grid-template-rows: 0.5fr [volume-start] 1.2fr [volume-end controls-start] 1.2fr [controls-end display-start] 1.2fr [display-end] 0.5fr [copy-start] 1fr [copy-end];
   grid-row-gap: 10px; }
 
+.logo {
+  grid-area: 1 / 2 / 2 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #262626; }
+  .logo p {
+    letter-spacing: 0.3rem;
+    font-family: var(--font-screens);
+    color: lightgrey;
+    font-size: 2rem; }
+
 .btn-panel {
   color: #555;
   align-self: center;
   justify-self: center;
   height: 80%;
   width: 80%;
-  grid-row: controls-start / controls-end; }
+  grid-row: controls-start / controls-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .btn-panel__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-screens);
+    font-size: 1.3rem; }
+  .btn-panel__btn {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-image: radial-gradient(at 25% bottom, #161616, #282828 50%, grey);
+    box-shadow: 1px 1px 1px 1px #161616; }
 
 .pad-btn {
   margin: 1rem 0.5rem;
@@ -258,9 +292,21 @@ body {
   height: 80%;
   width: 80%; }
   .display__volume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    letter-spacing: 0.5rem;
+    color: #ffa500;
+    font-family: var(--font-screens);
     background-color: #161616;
     grid-row: volume-start / volume-end; }
   .display__sound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: var(--font-screens);
     grid-row: display-start / display-end;
     background-color: #77abff;
     box-shadow: inset 0 0 2px 1px #161616; }
@@ -270,4 +316,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-row: copy-start / copy-end; }
+  grid-row: copy-start / copy-end;
+  font-family: var(--font-screens); }

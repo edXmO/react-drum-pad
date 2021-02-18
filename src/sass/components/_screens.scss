@@ -6,10 +6,22 @@
     height: 80%;
     width: 80%;
     &__volume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        letter-spacing: 0.5rem;
+        color: #ffa500;
+        font-family: var(--font-screens);
         background-color: #161616;
         grid-row: volume-start / volume-end;
     }
     &__sound {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        font-family: var(--font-screens);
         grid-row: display-start / display-end;
         background-color: #77abff;
         box-shadow: inset 0 0 2px 1px #161616;
