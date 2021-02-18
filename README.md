@@ -19,5 +19,5 @@
 
 ## Design inspired by: 
 
-# Aleksandr Askov: ![https://codepen.io/askov/pen/wxNLqz](https://codepen.io/askov/pen/wxNLqz);
+# Aleksandr Askov: ![https://codepen.io/askov/pen/wxNLqz](https://codepen.io/askov/pen/wxNLqz)
 
