@@ -1,0 +1,27 @@
+// Breakpoints
+$bg-mobile-m: 37.5em;
+$bg-mobile-s: 23.43em;
+
+// Base
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    max-width: 160rem;
+    font-style: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}

@@ -1,0 +1,9 @@
+// Copyright component
+
+.copy {
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: copy-start / copy-end;
+}

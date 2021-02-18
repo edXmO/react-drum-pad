@@ -1,0 +1,17 @@
+.display {
+    color: black;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+    height: 80%;
+    width: 80%;
+    &__volume {
+        background-color: #161616;
+        grid-row: volume-start / volume-end;
+    }
+    &__sound {
+        grid-row: display-start / display-end;
+        background-color: #77abff;
+        box-shadow: inset 0 0 2px 1px #161616;
+    }
+}

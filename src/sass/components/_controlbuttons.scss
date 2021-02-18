@@ -1,0 +1,10 @@
+// Btn Panel component
+
+.btn-panel {
+    color: #555;
+    align-self: center;
+    justify-self: center;
+    height: 80%;
+    width: 80%;
+    grid-row: controls-start / controls-end;
+}
