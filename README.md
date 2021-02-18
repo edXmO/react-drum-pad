@@ -17,7 +17,6 @@
 - Sass
 
 
-## Design inspired by: 
+## Design inspired by: [https://codepen.io/askov/full/wxNLqz](https://codepen.io/askov/full/wxNLqz)
 
-# Aleksandr Askov: ![https://codepen.io/askov/pen/wxNLqz](https://codepen.io/askov/pen/wxNLqz)
 
