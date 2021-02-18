@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render all buttons without crashing should render without crashing 1`] = `
+<div
+  className="btn-panel"
+>
+  <div
+    className="btn-panel__box"
+  >
+    <button
+      className="btn-panel__btn"
+    />
+    ON / OFF
+  </div>
+  <div
+    className="btn-panel__box"
+  >
+    <button
+      className="btn-panel__btn"
+    />
+    +VOL
+  </div>
+  <div
+    className="btn-panel__box"
+  >
+    <button
+      className="btn-panel__btn"
+    />
+    -VOL
+  </div>
+</div>
+`;
