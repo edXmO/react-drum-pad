@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-drum-pad/static/css/main.cf5f81b1.chunk.css",
+    "main.js": "/react-drum-pad/static/js/main.95cf8b56.chunk.js",
+    "main.js.map": "/react-drum-pad/static/js/main.95cf8b56.chunk.js.map",
+    "runtime-main.js": "/react-drum-pad/static/js/runtime-main.d7705a3a.js",
+    "runtime-main.js.map": "/react-drum-pad/static/js/runtime-main.d7705a3a.js.map",
+    "static/js/2.752d2cf0.chunk.js": "/react-drum-pad/static/js/2.752d2cf0.chunk.js",
+    "static/js/2.752d2cf0.chunk.js.map": "/react-drum-pad/static/js/2.752d2cf0.chunk.js.map",
+    "index.html": "/react-drum-pad/index.html",
+    "static/css/main.cf5f81b1.chunk.css.map": "/react-drum-pad/static/css/main.cf5f81b1.chunk.css.map",
+    "static/js/2.752d2cf0.chunk.js.LICENSE.txt": "/react-drum-pad/static/js/2.752d2cf0.chunk.js.LICENSE.txt",
+    "static/media/ClHat01.2482ad37.wav": "/react-drum-pad/static/media/ClHat01.2482ad37.wav",
+    "static/media/Clap01.cfd907b2.wav": "/react-drum-pad/static/media/Clap01.cfd907b2.wav",
+    "static/media/Cymbal.b509e40f.wav": "/react-drum-pad/static/media/Cymbal.b509e40f.wav",
+    "static/media/Kick01.3fff71e2.wav": "/react-drum-pad/static/media/Kick01.3fff71e2.wav",
+    "static/media/Kick02.2b6918e4.wav": "/react-drum-pad/static/media/Kick02.2b6918e4.wav",
+    "static/media/OpHat02.e268a4b5.wav": "/react-drum-pad/static/media/OpHat02.e268a4b5.wav",
+    "static/media/Snr01.c0e75d64.wav": "/react-drum-pad/static/media/Snr01.c0e75d64.wav",
+    "static/media/Tom01.5daf8750.wav": "/react-drum-pad/static/media/Tom01.5daf8750.wav",
+    "static/media/Tom02.57380a9d.wav": "/react-drum-pad/static/media/Tom02.57380a9d.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7705a3a.js",
+    "static/js/2.752d2cf0.chunk.js",
+    "static/css/main.cf5f81b1.chunk.css",
+    "static/js/main.95cf8b56.chunk.js"
+  ]
+}
