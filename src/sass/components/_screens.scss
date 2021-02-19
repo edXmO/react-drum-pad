@@ -11,10 +11,13 @@
         align-items: center;
         font-size: 1.6rem;
         letter-spacing: 0.5rem;
-        color: #ffa500;
+        color: #161616;
         font-family: var(--font-screens);
         background-color: #161616;
         grid-row: volume-start / volume-end;
+        &--on {
+            color: #ffa500;
+        }
     }
     &__sound {
         display: flex;
@@ -23,7 +26,12 @@
         font-size: 1.6rem;
         font-family: var(--font-screens);
         grid-row: display-start / display-end;
-        background-color: #77abff;
+        background-color: #bcbcbc;
+        color: #bcbcbc;
         box-shadow: inset 0 0 2px 1px #161616;
+        &--on {
+            background-color: #77abff;
+            color: #161616;
+        }
     }
 }
