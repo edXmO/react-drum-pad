@@ -4,10 +4,10 @@ const Button = ({ setVolume, handleToggle, text, type, on }) => {
 
     const handleVolume = () => {
         if (text === '+VOL') {
-            setVolume(prevState => prevState + 1);
+            setVolume(prevState => prevState < 100 ? prevState + 1 : prevState);
         }
         if (text === '-VOL') {
-            setVolume(prevState => prevState - 1);
+            setVolume(prevState => prevState > 0 ? prevState - 1 : prevState);
         }
     }
 
