@@ -3,7 +3,5 @@
 exports[`should render all buttons without crashing should render without crashing 1`] = `
 <div
   className="display display__volume"
->
-  VOL: 80%
-</div>
+/>
 `;
