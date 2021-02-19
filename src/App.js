@@ -14,6 +14,7 @@ const App = () => {
   const handleToggle = () => {
     if (!toggle) {
       setActiveSample('');
+      setVolume(80);
     }
     setToggle(prevState => !prevState);
   }
@@ -21,7 +22,7 @@ const App = () => {
   return (
     <div className="container">
       <Logo />
-      <Pad setActiveSample={setActiveSample} />
+      <Pad setActiveSample={setActiveSample} toggle={toggle} volume={volume} />
       <Control activeSample={activeSample} toggle={toggle} volume={volume} setVolume={setVolume} handleToggle={handleToggle} />
     </div>
   );

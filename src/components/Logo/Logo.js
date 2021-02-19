@@ -4,7 +4,7 @@ const Logo = () => {
     return (
         <div className='logo'>
             <p>XPowerPad</p>
-            <p>XM0-30</p>
+            <p>e-XM0-30</p>
         </div>
     )
 }
