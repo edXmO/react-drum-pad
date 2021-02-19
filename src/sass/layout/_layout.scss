@@ -10,53 +10,53 @@
     grid-template-rows: 0.5fr repeat(3, 1fr) 0.5fr;
     grid-gap: 1rem;
     grid-template-areas:
-        ". . . . . . . . ."
+        ".   .   .   . .       .       .       . ."
         ". pad pad pad . control control control ."
         ". pad pad pad . control control control ."
         ". pad pad pad . control control control ."
-        ". . . . . . . . .";
+        ".   .   .   . .       .       .       . .";
 }
 
 // Media queries
 @media only screen and (max-width: $bg-mobile-m) {
     .container {
         background-color: var(--background-pad-container);
-        height: 55rem;
-        width: 35rem;
-        grid-template-rows: 0.5fr repeat(3, 1.5fr) 0.5fr repeat(3, 1fr) 0.5fr;
-        grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
-        grid-template-areas:
-            ". . . . ."
-            ". pad pad pad ."
-            ". pad pad pad ."
-            ". pad pad pad ."
-            ".  .  .   .   ."
-            ". control control control ."
-            ". control control control ."
-            ". control control control ."
-            ". . . . .";
+        height: 60rem;
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pad {
+        width: 80%;
+        flex: 0 0 40%;
+    }
+
+    .control {
+        width: 80%;
+        flex: 1;
+    }
+
+    .logo {
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        align-self: center;
     }
 }
 
 @media only screen and (max-width: $bg-mobile-s) {
     .container {
-        background-color: var(--background-pad-container);
-        height: 55rem;
+        height: 60rem;
         width: 35rem;
-        grid-template-rows: 0.5fr repeat(3, 1.5fr) 0.5fr repeat(3, 1fr) 0.5fr;
-        grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
-        grid-template-areas:
-            ". . . . ."
-            "pad pad pad pad pad"
-            "pad pad pad pad pad"
-            "pad pad pad pad pad"
-            ".  .  .   .   ."
-            ". control control control ."
-            ". control control control ."
-            ". control control control ."
-            ". . . . .";
-        .pad {
-            margin: 0 0.7rem;
+    }
+    .logo {
+        p {
+            display: flex;
+            font-size: 1.3rem;
+            align-items: center;
         }
     }
 }

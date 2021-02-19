@@ -61,202 +61,202 @@
 
 // Keyframe animation
 
-@keyframes neon1 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff1177,
-            inset 0 0 70px #ff1177, inset 0 0 80px #ff1177, inset 0 0 100px #ff1177, inset 0 0 150px #ff1177;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff1177,
-            inset 0 0 35px #ff1177, inset 0 0 40px #ff1177, inset 0 0 50px #ff1177, inset 0 0 75px #ff1177;
-    }
-}
+// @keyframes neon1 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff1177,
+//             inset 0 0 70px #ff1177, inset 0 0 80px #ff1177, inset 0 0 100px #ff1177, inset 0 0 150px #ff1177;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff1177,
+//             inset 0 0 35px #ff1177, inset 0 0 40px #ff1177, inset 0 0 50px #ff1177, inset 0 0 75px #ff1177;
+//     }
+// }
 
-@keyframes neon2 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ffdd1b,
-            inset 0 0 70px #ffdd1b, inset 0 0 80px #ffdd1b, inset 0 0 100px #ffdd1b, inset 0 0 150px #ffdd1b;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ffdd1b,
-            inset 0 0 35px #ffdd1b, inset 0 0 40px #ffdd1b, inset 0 0 50px #ffdd1b, inset 0 0 75px #ffdd1b;
-    }
-}
+// @keyframes neon2 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ffdd1b,
+//             inset 0 0 70px #ffdd1b, inset 0 0 80px #ffdd1b, inset 0 0 100px #ffdd1b, inset 0 0 150px #ffdd1b;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ffdd1b,
+//             inset 0 0 35px #ffdd1b, inset 0 0 40px #ffdd1b, inset 0 0 50px #ffdd1b, inset 0 0 75px #ffdd1b;
+//     }
+// }
 
-@keyframes neon3 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #228dff,
-            inset 0 0 70px #228dff, inset 0 0 80px #228dff, inset 0 0 100px #228dff, inset 0 0 150px #228dff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #228dff,
-            inset 0 0 35px #228dff, inset 0 0 40px #228dff, inset 0 0 50px #228dff, inset 0 0 75px #228dff;
-    }
-}
+// @keyframes neon3 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #228dff,
+//             inset 0 0 70px #228dff, inset 0 0 80px #228dff, inset 0 0 100px #228dff, inset 0 0 150px #228dff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #228dff,
+//             inset 0 0 35px #228dff, inset 0 0 40px #228dff, inset 0 0 50px #228dff, inset 0 0 75px #228dff;
+//     }
+// }
 
-@keyframes neon4 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #b6ff00,
-            inset 0 0 70px #b6ff00, inset 0 0 80px #b6ff00, inset 0 0 100px #b6ff00, inset 0 0 150px #b6ff00;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #b6ff00,
-            inset 0 0 35px #b6ff00, inset 0 0 40px #b6ff00, inset 0 0 50px #b6ff00, inset 0 0 75px #b6ff00;
-    }
-}
+// @keyframes neon4 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #b6ff00,
+//             inset 0 0 70px #b6ff00, inset 0 0 80px #b6ff00, inset 0 0 100px #b6ff00, inset 0 0 150px #b6ff00;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #b6ff00,
+//             inset 0 0 35px #b6ff00, inset 0 0 40px #b6ff00, inset 0 0 50px #b6ff00, inset 0 0 75px #b6ff00;
+//     }
+// }
 
-@keyframes neon5 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff9900,
-            inset 0 0 70px #ff9900, inset 0 0 80px #ff9900, inset 0 0 100px #ff9900, inset 0 0 150px #ff9900;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff9900,
-            inset 0 0 35px #ff9900, inset 0 0 40px #ff9900, inset 0 0 50px #ff9900, inset 0 0 75px #ff9900;
-    }
-}
+// @keyframes neon5 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff9900,
+//             inset 0 0 70px #ff9900, inset 0 0 80px #ff9900, inset 0 0 100px #ff9900, inset 0 0 150px #ff9900;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff9900,
+//             inset 0 0 35px #ff9900, inset 0 0 40px #ff9900, inset 0 0 50px #ff9900, inset 0 0 75px #ff9900;
+//     }
+// }
 
-@keyframes neon6 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
-            inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
-            inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
-    }
-}
+// @keyframes neon6 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
+//             inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
+//             inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
+//     }
+// }
 
-@keyframes neon7 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff073a,
-            inset 0 0 70px #ff073a, inset 0 0 80px #ff073a, inset 0 0 100px #ff073a, inset 0 0 150px #ff073a;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff073a,
-            inset 0 0 35px #ff073a, inset 0 0 40px #ff073a, inset 0 0 50px #ff073a, inset 0 0 75px #ff073a;
-    }
-}
+// @keyframes neon7 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff073a,
+//             inset 0 0 70px #ff073a, inset 0 0 80px #ff073a, inset 0 0 100px #ff073a, inset 0 0 150px #ff073a;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff073a,
+//             inset 0 0 35px #ff073a, inset 0 0 40px #ff073a, inset 0 0 50px #ff073a, inset 0 0 75px #ff073a;
+//     }
+// }
 
-@keyframes neon8 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #001eff,
-            inset 0 0 70px #001eff, inset 0 0 80px #001eff, inset 0 0 100px #001eff, inset 0 0 150px #001eff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #001eff,
-            inset 0 0 35px #001eff, inset 0 0 40px #001eff, inset 0 0 50px #001eff, inset 0 0 75px #001eff;
-    }
-}
+// @keyframes neon8 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #001eff,
+//             inset 0 0 70px #001eff, inset 0 0 80px #001eff, inset 0 0 100px #001eff, inset 0 0 150px #001eff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #001eff,
+//             inset 0 0 35px #001eff, inset 0 0 40px #001eff, inset 0 0 50px #001eff, inset 0 0 75px #001eff;
+//     }
+// }
 
-@keyframes neon9 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
-            inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
-            inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
-    }
-}
+// @keyframes neon9 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
+//             inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
+//             inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
+//     }
+// }
 
-// webkit-keyframes animation
+// // webkit-keyframes animation
 
-@-webkit-keyframes neon1 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff1177,
-            inset 0 0 70px #ff1177, inset 0 0 80px #ff1177, inset 0 0 100px #ff1177, inset 0 0 150px #ff1177;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff1177,
-            inset 0 0 35px #ff1177, inset 0 0 40px #ff1177, inset 0 0 50px #ff1177, inset 0 0 75px #ff1177;
-    }
-}
+// @-webkit-keyframes neon1 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff1177,
+//             inset 0 0 70px #ff1177, inset 0 0 80px #ff1177, inset 0 0 100px #ff1177, inset 0 0 150px #ff1177;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff1177,
+//             inset 0 0 35px #ff1177, inset 0 0 40px #ff1177, inset 0 0 50px #ff1177, inset 0 0 75px #ff1177;
+//     }
+// }
 
-@-webkit-keyframes neon2 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ffdd1b,
-            inset 0 0 70px #ffdd1b, inset 0 0 80px #ffdd1b, inset 0 0 100px #ffdd1b, inset 0 0 150px #ffdd1b;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ffdd1b,
-            inset 0 0 35px #ffdd1b, inset 0 0 40px #ffdd1b, inset 0 0 50px #ffdd1b, inset 0 0 75px #ffdd1b;
-    }
-}
+// @-webkit-keyframes neon2 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ffdd1b,
+//             inset 0 0 70px #ffdd1b, inset 0 0 80px #ffdd1b, inset 0 0 100px #ffdd1b, inset 0 0 150px #ffdd1b;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ffdd1b,
+//             inset 0 0 35px #ffdd1b, inset 0 0 40px #ffdd1b, inset 0 0 50px #ffdd1b, inset 0 0 75px #ffdd1b;
+//     }
+// }
 
-@-webkit-keyframes neon3 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #228dff,
-            inset 0 0 70px #228dff, inset 0 0 80px #228dff, inset 0 0 100px #228dff, inset 0 0 150px #228dff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #228dff,
-            inset 0 0 35px #228dff, inset 0 0 40px #228dff, inset 0 0 50px #228dff, inset 0 0 75px #228dff;
-    }
-}
+// @-webkit-keyframes neon3 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #228dff,
+//             inset 0 0 70px #228dff, inset 0 0 80px #228dff, inset 0 0 100px #228dff, inset 0 0 150px #228dff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #228dff,
+//             inset 0 0 35px #228dff, inset 0 0 40px #228dff, inset 0 0 50px #228dff, inset 0 0 75px #228dff;
+//     }
+// }
 
-@-webkit-keyframes neon4 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #b6ff00,
-            inset 0 0 70px #b6ff00, inset 0 0 80px #b6ff00, inset 0 0 100px #b6ff00, inset 0 0 150px #b6ff00;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #b6ff00,
-            inset 0 0 35px #b6ff00, inset 0 0 40px #b6ff00, inset 0 0 50px #b6ff00, inset 0 0 75px #b6ff00;
-    }
-}
+// @-webkit-keyframes neon4 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #b6ff00,
+//             inset 0 0 70px #b6ff00, inset 0 0 80px #b6ff00, inset 0 0 100px #b6ff00, inset 0 0 150px #b6ff00;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #b6ff00,
+//             inset 0 0 35px #b6ff00, inset 0 0 40px #b6ff00, inset 0 0 50px #b6ff00, inset 0 0 75px #b6ff00;
+//     }
+// }
 
-@-webkit-keyframes neon5 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff9900,
-            inset 0 0 70px #ff9900, inset 0 0 80px #ff9900, inset 0 0 100px #ff9900, inset 0 0 150px #ff9900;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff9900,
-            inset 0 0 35px #ff9900, inset 0 0 40px #ff9900, inset 0 0 50px #ff9900, inset 0 0 75px #ff9900;
-    }
-}
+// @-webkit-keyframes neon5 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff9900,
+//             inset 0 0 70px #ff9900, inset 0 0 80px #ff9900, inset 0 0 100px #ff9900, inset 0 0 150px #ff9900;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff9900,
+//             inset 0 0 35px #ff9900, inset 0 0 40px #ff9900, inset 0 0 50px #ff9900, inset 0 0 75px #ff9900;
+//     }
+// }
 
-@-webkit-keyframes neon6 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
-            inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
-            inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
-    }
-}
+// @-webkit-keyframes neon6 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
+//             inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
+//             inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
+//     }
+// }
 
-@-webkit-keyframes neon7 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff073a,
-            inset 0 0 70px #ff073a, inset 0 0 80px #ff073a, inset 0 0 100px #ff073a, inset 0 0 150px #ff073a;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff073a,
-            inset 0 0 35px #ff073a, inset 0 0 40px #ff073a, inset 0 0 50px #ff073a, inset 0 0 75px #ff073a;
-    }
-}
+// @-webkit-keyframes neon7 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ff073a,
+//             inset 0 0 70px #ff073a, inset 0 0 80px #ff073a, inset 0 0 100px #ff073a, inset 0 0 150px #ff073a;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ff073a,
+//             inset 0 0 35px #ff073a, inset 0 0 40px #ff073a, inset 0 0 50px #ff073a, inset 0 0 75px #ff073a;
+//     }
+// }
 
-@-webkit-keyframes neon8 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #001eff,
-            inset 0 0 70px #001eff, inset 0 0 80px #001eff, inset 0 0 100px #001eff, inset 0 0 150px #001eff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #001eff,
-            inset 0 0 35px #001eff, inset 0 0 40px #001eff, inset 0 0 50px #001eff, inset 0 0 75px #001eff;
-    }
-}
+// @-webkit-keyframes neon8 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #001eff,
+//             inset 0 0 70px #001eff, inset 0 0 80px #001eff, inset 0 0 100px #001eff, inset 0 0 150px #001eff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #001eff,
+//             inset 0 0 35px #001eff, inset 0 0 40px #001eff, inset 0 0 50px #001eff, inset 0 0 75px #001eff;
+//     }
+// }
 
-@-webkit-keyframes neon9 {
-    from {
-        box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
-            inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
-    }
-    to {
-        box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
-            inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
-    }
-}
+// @-webkit-keyframes neon9 {
+//     from {
+//         box-shadow: inset 0 0 10px #fff, inset 0 0 20px #fff, inset 0 0 30px #fff, inset 0 0 40px #ba01ff,
+//             inset 0 0 70px #ba01ff, inset 0 0 80px #ba01ff, inset 0 0 100px #ba01ff, inset 0 0 150px #ba01ff;
+//     }
+//     to {
+//         box-shadow: inset 0 0 5px #fff, inset 0 0 10px #fff, inset 0 0 15px #fff, inset 0 0 20px #ba01ff,
+//             inset 0 0 35px #ba01ff, inset 0 0 40px #ba01ff, inset 0 0 50px #ba01ff, inset 0 0 75px #ba01ff;
+//     }
+// }
