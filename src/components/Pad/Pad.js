@@ -1,20 +1,19 @@
 import React from 'react';
 import '../../css/App.css';
 import PadButton from './PadButton/PadButton';
+import padSamples from '../../helpers/padSamples';
 
 
-const Pad = () => {
+const Pad = ({ setActiveSample }) => {
+
+    const renderPadButtons = padSamples.map(padKey => {
+        const { key, id } = padKey;
+        return <PadButton btn={key} key={id} id={id} setActiveSample={setActiveSample} />
+    })
+
     return (
         <div className='pad'>
-            <PadButton btn={'Q'} />
-            <PadButton btn={'W'} />
-            <PadButton btn={'E'} />
-            <PadButton btn={'A'} />
-            <PadButton btn={'S'} />
-            <PadButton btn={'D'} />
-            <PadButton btn={'Z'} />
-            <PadButton btn={'X'} />
-            <PadButton btn={'C'} />
+            {renderPadButtons}
         </div>
     )
 }

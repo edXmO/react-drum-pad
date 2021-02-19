@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing should render without crashing 1`] = `
+<div
+  className="control"
+>
+  <div
+    className="display display__volume "
+  >
+    VOL: undefined%
+  </div>
+  <div
+    className="btn-panel"
+  >
+    <div
+      className="btn-panel__box "
+    >
+      <button
+        className="btn-panel__btn"
+        onClick={[Function]}
+      />
+      OFF
+    </div>
+    <div
+      className="btn-panel__box "
+    >
+      <button
+        className="btn-panel__btn"
+        onClick={[Function]}
+      />
+      +VOL
+    </div>
+    <div
+      className="btn-panel__box "
+    >
+      <button
+        className="btn-panel__btn"
+        onClick={[Function]}
+      />
+      -VOL
+    </div>
+  </div>
+  <div
+    className="display display__sound "
+  />
+  <div
+    className="copy"
+  >
+    Built by edXmO © 2021
+  </div>
+</div>
+`;

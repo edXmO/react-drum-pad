@@ -18,6 +18,11 @@
         align-items: center;
         font-family: var(--font-screens);
         font-size: 1.3rem;
+
+        &--on {
+            color: greenyellow;
+            text-shadow: 1px 1px 1px greenyellow;
+        }
     }
 
     &__btn {

@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../../css/App.css';
 
-const Display = ({ type, screenType }) => {
+const Display = ({ content, screenType }) => {
     return (
         <div className={screenType}>
-            {type}
-        </div>)
+            {content}
+        </div>
+    )
 }
 
 export default Display;
