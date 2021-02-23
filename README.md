@@ -7,6 +7,7 @@
 ## [Live Demo] (https://edxmo.github.io/react-drum-pad/)
 
 [![Build Status](https://travis-ci.com/edXmO/react-drum-pad.svg?branch=main)](https://travis-ci.com/edXmO/react-drum-pad)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=edXmO/react-drum-pad)](https://dependabot.com)
 [![GitHub issues](https://img.shields.io/github/issues/edXmO/react-calculator)](https://github.com/edXmO/react-calculator/issues)
 [![GitHub forks](https://img.shields.io/github/forks/edXmO/react-calculator)](https://github.com/edXmO/react-calculator/network)
 
